@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aclor</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 14px;
+}
+.wrapper {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+      $(function(){
+        $('#counter').countdown({
+          image: 'img/digits.png',
+          startTime: '01:12:12:00'
+        });
+
+        $('#counter_2').countdown({
+          image: 'img/digits.png',
+          startTime: '00:10',
+          timerEnd: function(){ alert('end!'); },
+          format: 'mm:ss'
+        });
+      });
+</script>
+</head>
+
+<body>
+<div class="wrapper"><img src="img/logosplash.png" width="308" height="127" /><br />
+  <br />
+  <br />
+  We are performing a complete redesign<br />
+  Please check back
+</div>
+<div id="counter"></div>
+</body>
+</html>

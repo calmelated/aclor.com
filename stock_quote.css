@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<!--****Start of QuoteMedia.com Module Style Settings****-->
+<link rel="stylesheet" href="http://app.quotemedia.com/css/tools.css">
+<style type="text/css">
+{* General *} 
+.qmmt_main
+{
+	background-color: #FFFFFF;
+	font: 11px Tahoma;
+	color: #666666;
+}
+.qmmt_text
+{
+	font: 11px Tahoma;
+	color: #666666;
+}
+.qmmt_text_up
+{
+	font: 11px Tahoma, Helvetica, sans-serif;
+	color: #009900;
+}
+.qmmt_text_down
+{
+	font: 11px Tahoma, Helvetica, sans-serif;
+	color: #AC294B;
+}
+{* Links *} 
+a.qmmt, a.qmmt_text {
+	color: #3168b2;
+	font: 11px Tahoma;
+}
+a:visited.qmmt, a:visited.qmmt_text {
+	color: #3168b2;
+	font: 11px Tahoma;
+}
+a:hover.qmmt, a:hover.qmmt_text {
+	color: #3168b2;
+	font: 11px Tahoma;
+}		
+
+.qmmt_tab{ background-color: #3168b2;color: #ffffff; }
+.qmmt_tabactive{ background-color: #e3e3e3;color: #000000; }
+
+{* Heading Bars *} 
+.qmmt_header_bar
+{
+	background-color: #3168b2;
+	border-color: #e3e3e3;
+	font: 12px Tahoma;
+}
+.qmmt_header_text
+{
+	font: 13px Tahoma;
+	color: #ffffff;
+	font-weight: bold;
+}
+.qmmt_header_bar .qmmt_text { color: #ffffff; }
+.qmmt_header_bar a, .qmmt_header_bar a:visited { color: #ffffff; }
+
+{* Cycles for Alternating Cells *} 
+.qmmt_cycle, .qmmt_sub_header_bar 
+{
+	background-color: #e3e3e3;
+	border-color: #e3e3e3;
+	font: 11px Tahoma;
+	color: #666666;
+}
+.qmmt_cycle .qmmt_header_text, .qmmt_sub_header_bar .qmmt_header_text
+{
+	color: #666666;
+}
+.qmmt_sub_header_text, .qmmt_sub_header_bar a, .qmmt_sub_header_bar:visited { color: #666; }
+</style>
+<!--******End QuoteMedia.com Module Style Settings*******-->

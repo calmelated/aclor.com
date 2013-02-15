@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<!--****Start of QuoteMedia.com Module Style Settings****-->
+<link rel="stylesheet" href="http://app.quotemedia.com/css/tools.css">
+<style type="text/css">
+.qmmt_main
+{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.qmmt_text
+{
+    font: 12px Arial,Helvetica,Sans-Serif;
+    color: #000000;
+	padding-top: 10px;
+}
+.qmmt_text_up
+{
+    font: 12px Arial,Helvetica,Sans-Serif;
+    color: #000000;
+}
+.qmmt_text_down
+{
+    font: 12px Arial,Helvetica,Sans-Serif;
+    color: #000000;
+}
+.qmmt_cycle
+{
+    background-color: #FFFFFF;
+}
+.qmmt_header_text
+{
+    font: 13px Arial,Helvetica,Sans-Serif;
+	font-weight: bold;
+    color: #000000;
+}
+.qmmt_header_bar
+{
+    background-color: #DFDFDF;
+    border-color: #FFFFFF;
+}
+a.qmmt {
+	font: 12px Arial,Helvetica,Sans-Serif;
+    color: #324A79;
+	text-decoration: underline;
+}
+a:visited.qmmt {
+	font: 12px Arial,Helvetica,Sans-Serif;
+    color: #324A79;
+	text-decoration: underline;		
+}
+a:hover.qmmt {
+	font: 12px Arial,Helvetica,Sans-Serif;
+    color: #ff0000;
+	text-decoration: underline;		
+}
+
+</style>
+<!--******End QuoteMedia.com Module Style Settings*******-->

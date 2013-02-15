@@ -1,0 +1,9 @@
+[12-Feb-2013 00:25:46] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/aclor/public_html/mailform.php on line 27
+[12-Feb-2013 00:26:26] PHP Parse error:  syntax error, unexpected ':' in /home/aclor/public_html/mailform.php on line 27
+[12-Feb-2013 12:42:04] PHP Parse error:  syntax error, unexpected ':' in /home/aclor/public_html/mailform.php on line 27
+[12-Feb-2013 13:31:12] PHP Parse error:  syntax error, unexpected T_PRINT in /home/aclor/public_html/mailform.php on line 28
+[12-Feb-2013 13:32:16] PHP Parse error:  syntax error, unexpected T_IF in /home/aclor/public_html/mailform.php on line 31
+[12-Feb-2013 13:32:48] PHP Parse error:  syntax error, unexpected T_IF in /home/aclor/public_html/mailform.php on line 31
+[12-Feb-2013 13:35:40] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/aclor/public_html/mailform.php on line 20
+[12-Feb-2013 13:38:41] PHP Parse error:  syntax error, unexpected T_PRINT in /home/aclor/public_html/mailform.php on line 29
+[12-Feb-2013 15:24:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aclor/public_html/mailform.php:82) in /home/aclor/public_html/mailform.php on line 83

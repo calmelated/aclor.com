@@ -1,0 +1,23 @@
+#!/bin/sh
+
+#hostlink="https://gator1729.hostgator.com:2078"
+hostlink="ftp://aclor:4c10r8888@aclor.com"
+#name="`id -u -n`"
+
+devdir="aclor.com"
+webdir="aclor.com.hostgator"
+mkdir -p $HOME/$webdir
+
+mnted="`mount |grep $webdir`"
+if [ "$mnted" == "" ]; then
+    #sudo mount -t davfs -o rw,uid=$name,gid=$name $hostlink $HOME/$webdir/
+    sudo curlftpfs -o allow_other $HOME/$webdir
+fi
+
+if [ -d $HOME/$webdir/www ]; then
+    echo "Start to sync .... "
+    sleep 1
+    sudo rsync -ahHv --delete --exclude-from=./sync-website.exclude $HOME/$devdir/* $HOME/$webdir/www/
+else
+    echo "No such folder, or mount the remote folder failed !!"
+fi
