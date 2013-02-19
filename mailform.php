@@ -15,11 +15,11 @@ if ($REMOTE_ADDR == "") $ip = "no ip";
 else $ip = getHostByAddr($REMOTE_ADDR);
 
 // Gets the POST Headers - the Flash variables
-$name = $HTTP_POST_VARS['name'] ;
-$email = $HTTP_POST_VARS['email'] ;
-$company = $HTTP_POST_VARS['company'] ;
-$subject = $HTTP_POST_VARS['subject'] ;
-$comments = $HTTP_POST_VARS['comments'] ;
+$name = $_POST['name'] ;
+$email = $_POST['email'] ;
+$company = $_POST['company'] ;
+$subject = $_POST['subject'] ;
+$comments = $_POST['comments'] ;
 
 //Process the form data!
 // and send the information collected in the Flash form to Your nominated email address
