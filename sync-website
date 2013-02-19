@@ -17,7 +17,7 @@ fi
 if [ -d $HOME/$webdir/www ]; then
     echo "Start to sync .... "
     sleep 1
-    sudo rsync -ahHv --delete --exclude-from=./sync-website.exclude $HOME/$devdir/* $HOME/$webdir/www/
+    sudo cp -aur $HOME/$devdir/* $HOME/$webdir/www
 else
     echo "No such folder, or mount the remote folder failed !!"
 fi
